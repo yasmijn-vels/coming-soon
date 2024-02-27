@@ -1,0 +1,36 @@
+* {
+	font-family: 'Playfair Display' , serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1920px;
+	height: 957px;
+	background-image: url("../../images/background-main.jpg");
+	background-position: center;
+	background-size:auto;
+	padding: 0 8%;
+	position: fixed;
+}
+.logo {
+	width: 300px;
+	padding: 500px 0;
+}
+.content {
+	top: 90%;
+	position: absolute;
+	transform: translateY(-501%);
+	color: #ff0000;
+}
+.content h1 {
+font-size: 64px;
+font-weight: 500;
+}
+.content h1 span {
+color: rgb(250, 73, 73);
+}
+.content h3 {
+font-size: 34px;
+font-weight: 500;
+}
